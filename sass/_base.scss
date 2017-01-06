@@ -1,0 +1,155 @@
+/* Comienzo header y modal */
+.back-header{
+	background-image: url(../img/parallax-1.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo1{
+	width: 60%;
+	height: 60%;
+	margin-left: 11%;
+	margin-top: 7%;
+}
+.logo-animado1{
+	width: 65%;
+	height: 55%;
+	margin-left: 20%;
+	margin-bottom: 9%;
+}
+
+/*Fin Header */
+/*video */
+iframe {
+	width:100%;
+}
+/*Fin video */
+/* Section verde responsive */ 
+.sect-verde{
+	background-color: $green; 
+	height: 95px;
+}
+/*Nuestra pasion */
+.nuestra-pasion{
+	background-image: url(../img/parallax-3.jpg);
+	width: 100%;
+	height: 636px;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.t-np{
+	@include t-np;
+	font-size: 80px;
+	margin-top:6%;
+}	
+.p-np{
+	font-size: 20px;
+}
+
+/*Fin nuestra pasion */
+/* Comienzo 5 textos */
+.cinco-textos{
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+.titlete{
+	color: $light-pink;
+}
+.tipos-te{
+	margin-left: 2.5%;
+}
+/*Fin 5 textos */ 
+/* Comienzo 4 fotos */
+.back-2{
+	height: 634px;
+}
+.back-3{
+	background-image: url(../img/min-video-3.jpg);
+	height: 317px;
+}
+.back-4{
+	background-image: url(../img/min-video-5.jpg);
+	height: 317px;
+}
+.back-5{
+	background-image: url(../img/min-video-6.jpg);
+	height: 317px;
+}
+.t-cuatro{
+	font-size: 16px;
+	color: $white;
+}
+/*Fin 4 fotos */ 
+/* Comienzo Section preguntas sobre el té */
+.back-preguntas{
+	background-image: url(../img/parallax-2.jpg);
+	width: 100%;
+	height: 636px;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+/* Fin Section preguntas sobre el té */
+/* Comienzo Section mitad amarilla */ 
+.fondoamarillo {
+	background-color: $light-yellow;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.taza-png{
+	padding-left: 16%;
+}
+.fondoverde{
+	background-color: $green;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+/* Fin Section mitad amarilla */
+/* Comienzo Section mitad rosada */ 
+.fondorosado{
+	background-color: $light-pink;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+/* fin Section mitad rosada */ 
+/* Inicio Section los campos */
+.back-loscampos{
+	background-image: url(../img/parallax-4.jpg);
+}
+/* Fin Section los campos */
+/*Comienzo Section Slide */
+.slide-1{
+	width:100%;
+	height:100%;
+}
+/*Fin Section Slide */
+/*Comienzo section amamos el té */
+.logo2{
+	width: 65%;
+	height: 65%;
+	margin-left: 8%;
+}
+.cajadete{
+	width: 60%;
+	height: 90%;
+	margin-left: 14%;
+	margin-bottom: 6%;
+}
+/*Fin section amamos el té */
+/*Comienzo footer */
+footer{
+	background-color: $color-footer; 
+	height: 134px;
+	color: $letra-footer;
+}
+.logo3{
+	width:33%;
+	height: 43%;
+	margin-left: 49%;
+	margin-top: 3%;
+}
+.p-footer {
+	margin-top: 8%;
+	margin-left: 7%;
+}
+/*Fin footer */
