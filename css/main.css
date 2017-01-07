@@ -5935,15 +5935,21 @@ iframe {
 /*Fin Section Slide */
 /*Comienzo section amamos el té */
 .logo2 {
-  width: 65%;
-  height: 65%;
-  margin-left: 8%; }
+  width: 60%;
+  height: 60%;
+  margin-left: 9%; }
 
 .cajadete {
   width: 60%;
   height: 90%;
   margin-left: 14%;
   margin-bottom: 6%; }
+
+.amamos {
+  margin-left: 10%; }
+
+.p-amamos {
+  margin-left: 10%; }
 
 /*Fin section amamos el té */
 /*Comienzo footer */
